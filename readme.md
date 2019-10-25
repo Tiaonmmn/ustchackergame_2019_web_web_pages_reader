@@ -11,7 +11,7 @@
 
 ## 启动
 - docker-compose up -d
-- nc 127.0.0.1 928
+- open http://127.0.0.1:928
 
 ## 题目说明
 - Flag位于files/flag，Docker中位于/flag。
