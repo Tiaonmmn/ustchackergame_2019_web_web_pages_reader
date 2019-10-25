@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web_pages_reader:
+    build: .
+    image: ctftraining/ustchackergame_2019_web_web_pages_reader
+    ports:
+        - 928:8000
