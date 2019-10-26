@@ -48,7 +48,7 @@ def req_route():
 
 @app.route("/source")
 def get_source():
-    return send_from_directory("/static/", "app.py", as_attachment=True)
+    return send_from_directory("static/", "app.py", as_attachment=True)
 
 
 if __name__ == '__main__':
